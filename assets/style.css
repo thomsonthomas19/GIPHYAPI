@@ -1,0 +1,59 @@
+body {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:whitesmoke;
+    
+}
+
+button {
+    margin:6px;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight:500;
+
+}
+
+input[type="text"], textarea {
+    background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding:0px;
+border:0px;
+color:whitesmoke;
+
+}
+
+/* #gif-holder{
+    /* outline: 1px solid black; */
+    /* width:100%; */
+    /* height:500px; */
+    /* flex-direction:column; */
+    /* display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+} */ 
+
+.gif-holder-indiv {
+    width:100%;
+    height:500px;
+    flex-direction:column;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    
+}
+/* #gif-holder *{
+    outline: 1 px dotted red;
+} */
+/* .bob{
+    height:100px;
+    width:100px;
+    background: orange;
+} */
+/* .blackground { */
+    /* background-color: black; */
+/* } */
