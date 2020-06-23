@@ -67,7 +67,7 @@ $(document).on("click", ".botn", function () {
 
             var artistDiv = $("<div>");
             var gifRating = $("<p>").text("Rating: " + results[i].rating);
-            var artistImg = $("<img>").addClass("gif");
+            var artistImg = $("<img>").addClass("gif img-thumbnail");
 
             artistImg.attr("src", results[i].images.fixed_height_still.url);
             artistImg.attr("data-state", "still")
@@ -76,7 +76,7 @@ $(document).on("click", ".botn", function () {
 
             artistDiv.append(gifRating);
             artistDiv.append(artistImg);
-            artistDiv.attr("class", "gif-holder-indiv")
+            artistDiv.attr("class", "gif-holder-indiv col-xl-4 col-lg-6 col-12")
             $("#gif-holder").prepend(artistDiv);
         };
     });
